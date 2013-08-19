@@ -13,6 +13,9 @@
     <div class="container">
       <h1> TriJUG Burndown list </h1>
       <p> How come there are no issues here? :(</p>
+      <% @issues.each do |i| %>
+        Title: <%= @i.title %>
+      <% end %>
     </div>
   </body>
 </html>
